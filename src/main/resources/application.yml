@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: sc-cachestore
+sc:
+  cachestore:
+    packages: com.sc.cachestore.provider.redis
+  aerospike:
+    hostname: localhost
+    port: 3000
+    namespace: test
+    user: null
+    password: null
+  mongodb:
+    hostname: localhost
+    port: 27017
+    database: test
+    user: null
+    password: null
+  redis:
+    hostname: localhost
+    port: 6379
+    password: 

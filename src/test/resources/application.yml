@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: sc-cachestore
+sc:
+  cachestore:
+    packages: com.sc.cachestore.common.test
