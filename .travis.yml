@@ -10,6 +10,6 @@ env:
 jobs:
   include:
     - stage: compile
-      script: ./compile
+      script: mvn clean install
     - stage: deploy
-script: ./deploy
+script: mvn clean install
